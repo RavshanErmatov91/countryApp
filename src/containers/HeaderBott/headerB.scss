@@ -1,0 +1,26 @@
+.header__bottom {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  form {
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 21px;
+      left: 34px;
+    }
+    input {
+      width: 480px;
+      height: 56px;
+      padding-left: 76px;
+      padding-right: 10px;
+
+      background: #ffffff;
+      box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}
